@@ -10,6 +10,7 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Index;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
@@ -25,7 +26,7 @@ import lombok.ToString;
 @Getter
 @ToString
 @Entity
-@Table(name = "usuario")
+@Table(name = "usuario", indexes = {@Index(name = "email_index", columnList = "email")})
 /**
  * Classe responsável por possui o modelo do objeto Usuário
  * 
