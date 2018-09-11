@@ -10,7 +10,7 @@ import br.com.dialogospfizer.entity.Associacao;
 
 @Repository
 public class AssociacaoDAO {
-	
+
 	@PersistenceContext
 	EntityManager em;
 
