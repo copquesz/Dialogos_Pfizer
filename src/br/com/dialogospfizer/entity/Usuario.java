@@ -22,7 +22,8 @@ import lombok.ToString;
 @Entity
 @Table(name = "usuario")
 /**
- * Classe Entidade responsável por possui o modelo do objeto Usuário
+ * Classe responsável por possui o modelo do objeto Usuário
+ * 
  * @author Lucas Copque
  *
  */
@@ -50,5 +51,8 @@ public class Usuario implements Serializable {
 
 	@Column(name = "senha")
 	private String senha;
+
+	@Column(name = "cpf")
+	private String cpf;
 
 }
