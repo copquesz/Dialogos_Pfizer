@@ -59,6 +59,12 @@ public class Usuario implements Serializable {
 
 	@Column(name = "cpf")
 	private String cpf;
+	
+	@Column(name = "telefone_residencial")
+	private String telefoneResidencial;
+	
+	@Column(name = "telefone_celular")
+	private String telefoneCelular;
 
 	@JoinColumn(name = "endereco_id")
 	@ManyToOne
