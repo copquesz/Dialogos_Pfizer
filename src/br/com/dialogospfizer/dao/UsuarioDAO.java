@@ -4,8 +4,11 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
+import org.springframework.stereotype.Repository;
+
 import br.com.dialogospfizer.entity.Usuario;
 
+@Repository
 public class UsuarioDAO {
 	
 	@PersistenceContext
