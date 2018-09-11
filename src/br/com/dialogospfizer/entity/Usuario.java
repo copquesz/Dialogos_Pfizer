@@ -70,7 +70,7 @@ public class Usuario implements Serializable {
 	private String telefoneCelular;
 
 	@JoinColumn(name = "endereco_id")
-	@ManyToOne(cascade =  CascadeType.ALL, fetch = FetchType.EAGER)
+	@ManyToOne(cascade =  CascadeType.ALL, fetch = FetchType.LAZY)
 	private Endereco endereco;
 	
 	@Enumerated(EnumType.ORDINAL)

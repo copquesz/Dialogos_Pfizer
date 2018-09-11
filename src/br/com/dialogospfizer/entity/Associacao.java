@@ -69,11 +69,11 @@ public class Associacao implements Serializable{
 	private Integer qtdVoluntarios;
 	
 	@JoinColumn(name = "endereco_id")
-	@ManyToOne(cascade =  CascadeType.ALL, fetch = FetchType.EAGER)
+	@ManyToOne(cascade =  CascadeType.ALL, fetch = FetchType.LAZY)
 	private Endereco endereco;
 	
 	@JoinColumn(name = "usuario_id")
-	@ManyToOne(cascade =  CascadeType.ALL, fetch = FetchType.EAGER)
+	@ManyToOne(cascade =  CascadeType.ALL, fetch = FetchType.LAZY)
 	private Usuario usuario;
 
 }
