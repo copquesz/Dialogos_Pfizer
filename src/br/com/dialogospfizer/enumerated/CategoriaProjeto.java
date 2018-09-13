@@ -1,5 +1,8 @@
 package br.com.dialogospfizer.enumerated;
 
+import lombok.Getter;
+
+@Getter
 public enum CategoriaProjeto {
 	
 	PSIORIASE(0, "Psioriase"),
