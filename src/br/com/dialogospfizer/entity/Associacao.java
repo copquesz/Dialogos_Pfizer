@@ -17,6 +17,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import br.com.dialogospfizer.utility.DocumentosAssociacao;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -76,5 +77,9 @@ public class Associacao implements Serializable{
 	@JoinColumn(name = "usuario_id")
 	@ManyToOne(cascade =  CascadeType.ALL, fetch = FetchType.LAZY)
 	private Usuario usuario;
+	
+	@JoinColumn(name = "documentos_associacao_id")
+	@ManyToOne(cascade =  CascadeType.ALL, fetch = FetchType.LAZY)
+	private DocumentosAssociacao documentos;
 
 }
