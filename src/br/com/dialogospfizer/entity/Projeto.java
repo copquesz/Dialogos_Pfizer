@@ -20,6 +20,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 import br.com.dialogospfizer.enumerated.CategoriaProjeto;
+import br.com.dialogospfizer.utility.DocumentosProjeto;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -64,5 +65,9 @@ public class Projeto implements Serializable {
 	@JoinColumn(name = "associacao_id")
 	@ManyToOne(cascade =  CascadeType.ALL, fetch = FetchType.LAZY)
 	private Associacao associacao;
+	
+	@JoinColumn(name = "documentos_projeto_id")
+	@ManyToOne(cascade =  CascadeType.ALL, fetch = FetchType.LAZY)
+	private DocumentosProjeto documentos;
 
 }
