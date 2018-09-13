@@ -1,7 +1,6 @@
 package br.com.dialogospfizer.enumerated;
 
 import lombok.Getter;
-import lombok.Setter;
 
 @Getter
 /**
