@@ -14,8 +14,9 @@ public class ProjetoDAO {
 	@PersistenceContext
 	EntityManager em;
 	
-	public void adicionar (Projeto projeto) {
+	public Projeto adicionar (Projeto projeto) {
 		em.persist(projeto);
+		return carregar(projeto.getNomeProjeto());
 	}
 	
 	public Projeto carregar (String nomeProjeto) {
