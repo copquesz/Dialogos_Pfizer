@@ -8,22 +8,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.3.4, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="${path}/assets/principal/images/logo-2160x1374.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/logo-2160x1374.png" type="image/x-icon">
   <meta name="description" content="">
   <title>Home - Prêmio Pfizer Inovação Social 2018</title>
-  <link rel="stylesheet" href="${path}/assets/principal/font-awesome/css/font-awesome.css">
-  <link rel="stylesheet" href="${path}/assets/principal/web/${path}/assets/principal/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="${path}/assets/principal/tether/tether.min.css">
-  <link rel="stylesheet" href="${path}/assets/principal/soundcloud-plugin/style.css">
-  <link rel="stylesheet" href="${path}/assets/principal/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="${path}/assets/principal/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="${path}/assets/principal/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="${path}/assets/principal/socicon/css/styles.css">
-  <link rel="stylesheet" href="${path}/assets/principal/dropdown/css/style.css">
-  <link rel="stylesheet" href="${path}/assets/principal/theme/css/style.css">
-  <link rel="stylesheet" href="${path}/assets/principal/mobirise/css/mbr-additional.css" type="text/css">
-  <link rel="stylesheet" href="${path}/assets/principal/custom/toggle-collapse/style.css" type="text/css">
-  <link rel="stylesheet" href="${path}/assets/principal/custom/style.css" type="text/css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="assets/custom/toggle-collapse/style.css" type="text/css">
+  <link rel="stylesheet" href="assets/custom/style.css" type="text/css">
   
   
   
@@ -50,14 +50,7 @@
 <body>
     
 <!-- import menu.jsp -->
-  <c:choose>
-    <c:when test="${empty status}">
-      <c:import url="menu.jsp" />
-    </c:when>
-    <c:when test="${not empty status}">
-      <c:import url="menu-painel.jsp" />
-    </c:when>
-  </c:choose>
+  
 
 <section class="cid-qAjMEeSorc mbr-fullscreen mbr-parallax-background" id="header2-2" data-rv-view="115">
 
@@ -97,10 +90,10 @@
             	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
             	<div id="wowslider-container0">
             	<div class="ws_images"><ul>
-            		<li><img src="${path}/assets/principal/data0/images/img01.jpg" alt="" title="" id="wows0_0"/></li>
-            		<li><img src="${path}/assets/principal/data0/images/img02.jpg" alt="" title="" id="wows0_1"/></li>
+            		<li><img src="data0/images/img01.jpg" alt="" title="" id="wows0_0"/></li>
+            		<li><img src="data0/images/img02.jpg" alt="" title="" id="wows0_1"/></li>
             		<li><a href="http://wowslider.net"><img src="data0/images/img03.jpg" alt="jquery image carousel" title="" id="wows0_2"/></a></li>
-            		<li><img src="${path}/assets/principal/data0/images/img04.jpg" alt="" title="" id="wows0_3"/></li>
+            		<li><img src="data0/images/img04.jpg" alt="" title="" id="wows0_3"/></li>
             	</ul></div>
             	<div class="ws_bullets"><div>
             		<a href="#" title=""><span>1</span></a>
@@ -110,8 +103,8 @@
             	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">bootstrap image slider</a> by WOWSlider.com v8.8</div>
             	<div class="ws_shadow"></div>
             	</div>	
-            	<script type="text/javascript" src="${path}/assets/principal/engine0/wowslider.js"></script>
-            	<script type="text/javascript" src="${path}/assets/principal/engine0/script.js"></script>
+            	<script type="text/javascript" src="engine0/wowslider.js"></script>
+            	<script type="text/javascript" src="engine0/script.js"></script>
             	<!-- End WOWSlider.com BODY section -->	
             </div>
 
@@ -154,7 +147,7 @@
         <div class="row justify-content-center">
             <div class="media-container-column title col-12 col-md-10">
                 <h2 class="align-left mbr-bold mbr-white pb-3 mbr-fonts-style display-2" style="text-shadow: 0px 0px 100px #00B0F0;">FAÇA SUA INSCRIÇÃO</h2>
-                <h3 class="mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style display-5">Um processo simples e rápido. É assim que a Pfizer quer manter o relacionamento  e parceria com as associações de pacientes.<br><br>Mais informações acesso o regulamento <a href="${path}/assets/principal/documentos/edital/Edital Prêmio Pfizer.pdf"><b style="color: #fff;">clicando aqui.</b></a></h3>
+                <h3 class="mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style display-5">Um processo simples e rápido. É assim que a Pfizer quer manter o relacionamento  e parceria com as associações de pacientes.<br><br>Mais informações acesso o regulamento <a href="assets/documentos/edital/Edital Prêmio Pfizer.pdf"><b style="color: #fff;">clicando aqui.</b></a></h3>
                 
                 <div class="mbr-section-btn align-left py-4"><a class="btn btn-white-outline display-4" href="check-in.jsp">INSCREVER-SE</a></div>
             </div>
@@ -315,7 +308,7 @@
                     <p style="text-align: justify; color: black;"><b>Ainda não entendeu como funciona o Prêmio? Quer saber mais?</b><br><b>Estamos à sua disposição para esclarecer dúvidas: (11) 2389-5766</b></p>
                     <p style="text-align: justify;"><hr>Contribuir para o desenvolvimento institucional das associações de pacientes é estratégico para a Pfizer realizar a sua missão.</p>
 
-                    <center><img src="${path}/assets/principal/images/help.jpg" style="width: 100%;"></center>
+                    <center><img src="assets/images/help.jpg" style="width: 100%;"></center>
 
                     
                                     
@@ -565,13 +558,13 @@
                     <div class="soc-item" style="margin-right: 50px">
                             <a href="http://www.yabaconsultoria.com.br/" target="_blank">
                                 <h4 style="color: white; font-size: 16px;">Mentoria:</h4>
-                                <img src="${path}/assets/principal/images/Logo YABÁ Dourado.png" style="width: 60px; height: 50px;">
+                                <img src="assets/images/Logo YABÁ Dourado.png" style="width: 60px; height: 50px;">
                             </a>
                     </div>
                     <div class="soc-item" style="margin-left: 50px">
                             <a href="https://www.pfizer.com.br/" target="_blank">
                                  <h4 style="color: white; font-size: 16px;">Realização:</h4>
-                                <img src="${path}/assets/principal/images/logo-2160x1374.png" style="width: 70px; height: 50px; ">
+                                <img src="assets/images/logo-2160x1374.png" style="width: 70px; height: 50px; ">
                             </a>
                     </div>
             </div>
@@ -584,18 +577,18 @@
 </section>
 
 
-  <script src="${path}/assets/principal/web/${path}/assets/principal/jquery/jquery.min.js"></script>
-  <script src="${path}/assets/principal/popper/popper.min.js"></script>
-  <script src="${path}/assets/principal/tether/tether.min.js"></script>
-  <script src="${path}/assets/principal/bootstrap/js/bootstrap.min.js"></script>
-  <script src="${path}/assets/principal/smooth-scroll/smooth-scroll.js"></script>
-  <script src="${path}/assets/principal/touch-swipe/jquery.touch-swipe.min.js"></script>
-  <script src="${path}/assets/principal/jarallax/jarallax.min.js"></script>
-  <script src="${path}/assets/principal/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
-  <script src="${path}/assets/principal/dropdown/js/script.min.js"></script>
-  <script src="${path}/assets/principal/theme/js/script.js"></script>
-  <script src="${path}/assets/principal/formoid/formoid.min.js"></script>
-  <script src="${path}/assets/principal/custom/script.js"></script>
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smooth-scroll/smooth-scroll.js"></script>
+  <script src="assets/touch-swipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/jarallax/jarallax.min.js"></script>
+  <script src="assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
+  <script src="assets/custom/script.js"></script>
 
   
   

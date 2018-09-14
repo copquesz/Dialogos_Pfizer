@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
-  <display-name>dialogos-pfizer</display-name>
+  <display-name>Dialogos Pfizer</display-name>
   <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
-  <!-- Configurações de Sessão -->
+  <!-- Session Configuration -->
   <session-config>
 	<session-timeout>120</session-timeout>
   </session-config>
-  
-  <!-- Servlet Principal -->
   <servlet>
   	<servlet-name>Dialogos Pfizer</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -30,13 +27,10 @@
     	<file-size-threshold>41943040</file-size-threshold>
     </multipart-config>
   </servlet>
-  
   <servlet-mapping>
   	<servlet-name>Dialogos Pfizer</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>  
-  
-  <!-- Filtros UTF-8 -->
   <filter>
      <filter-name>SetCharacterEncodingFilter</filter-name>
      <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>

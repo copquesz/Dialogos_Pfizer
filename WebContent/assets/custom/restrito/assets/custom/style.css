@@ -1,0 +1,28 @@
+.custom-form:focus{
+	border:1px solid #002060;
+
+}
+
+.custom-btn{
+	background-color: #fff;
+	border: 1px solid #002060;
+	color: #002060;
+}
+
+.custom-btn:hover{
+	background-color: #002060;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.custom-btn-inverse{
+	background-color: #002060;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.custom-btn-inverse:hover{
+	background-color: #fff;
+	border: 1px solid #002060;
+	color: #002060;
+}
