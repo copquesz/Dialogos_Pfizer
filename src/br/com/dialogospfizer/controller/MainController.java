@@ -31,7 +31,7 @@ public class MainController {
 		String path = request.getContextPath();
 		model.addAttribute("path", path);
 
-		return "index";
+		return "principal/index";
 	}
 
 }

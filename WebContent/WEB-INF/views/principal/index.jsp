@@ -50,7 +50,7 @@
 <body>
     
 <!-- import menu.jsp -->
-<c:import url="../menu/menu.jsp" />
+<c:import url="../menu/menu-principal.jsp" />
     
 
 <section class="cid-qAjMEeSorc mbr-fullscreen mbr-parallax-background" id="header2-2" data-rv-view="115">
