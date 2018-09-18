@@ -20,7 +20,7 @@ public class ProjetoDAO {
 	}
 	
 	public Projeto carregar (String nomeProjeto) {
-		Query query = em.createQuery("SELECT p FROM Projeto p WHERE p.nomeProjeto = : nomeProjeto", Projeto.class);
+		Query query = em.createQuery("SELECT p FROM Projeto p WHERE p.nomeProjeto = :nomeProjeto", Projeto.class);
 		query.setParameter("nomeProjeto", nomeProjeto);
 		return (Projeto) query.getSingleResult();
 	}

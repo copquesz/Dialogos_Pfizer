@@ -21,7 +21,7 @@ public class AssociacaoDAO {
 	}
 
 	public Associacao carregar(String cnpj) {
-		Query query = em.createQuery("SELECT as FROM Associacao as WHERE as.cnpj : cnpj", Associacao.class);
+		Query query = em.createQuery("SELECT as FROM Associacao as WHERE as.cnpj = :cnpj", Associacao.class);
 		query.setParameter("cnpj", cnpj);
 		return (Associacao) query.getSingleResult();
 	}
