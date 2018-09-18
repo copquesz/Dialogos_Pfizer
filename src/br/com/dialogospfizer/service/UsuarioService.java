@@ -18,4 +18,12 @@ public class UsuarioService {
 		return dao.adicionar(usuario);
 	}
 
+	public Usuario carregar(String email) {
+		return dao.carregar(email);
+	}
+
+	public boolean login(String email, String senha) {
+		return dao.login(email, senha);
+	}
+
 }

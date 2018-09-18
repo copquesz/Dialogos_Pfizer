@@ -27,11 +27,16 @@ public class UsuarioDAO {
 	}
 
 	public boolean login(String email, String senha) {
-		Query query = em.createQuery("SELECT u FROM Usuario u WHERE u.email = :email AND u.senha = :senha", Usuario.class);
+		Query query = em.createQuery("SELECT u FROM Usuario u WHERE u.email = :email AND u.senha = :senha",
+				Usuario.class);
 		query.setParameter("email", email);
 		query.setParameter("senha", senha);
-		
-		return false;
+
+		if (query.getResultList().isEmpty()) {
+			return false;
+		} else {
+			return true;
+		}
 	}
 
 }
