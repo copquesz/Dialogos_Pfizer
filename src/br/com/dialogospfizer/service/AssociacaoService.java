@@ -13,5 +13,9 @@ public class AssociacaoService {
 	public Associacao adicionar(Associacao associacao) {
 		return dao.adicionar(associacao);
 	}
+	
+	public Associacao carregar(Integer id) {
+		return dao.carregar(id);
+	}
 
 }
