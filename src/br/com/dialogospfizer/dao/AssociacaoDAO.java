@@ -25,5 +25,11 @@ public class AssociacaoDAO {
 		query.setParameter("cnpj", cnpj);
 		return (Associacao) query.getSingleResult();
 	}
+	
+	public Associacao carregar(Integer id) {
+		Query query = em.createQuery("SELECT as FROM Associacao as WHERE as.id = :id", Associacao.class);
+		query.setParameter("id", id);
+		return (Associacao) query.getSingleResult();
+	}
 
 }
