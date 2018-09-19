@@ -31,5 +31,9 @@ public class AssociacaoDAO {
 		query.setParameter("id", id);
 		return (Associacao) query.getSingleResult();
 	}
+	
+	public Associacao atualizar(Associacao associacao) {
+		return em.merge(associacao);
+	}
 
 }
