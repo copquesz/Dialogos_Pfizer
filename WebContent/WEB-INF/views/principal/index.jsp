@@ -8,22 +8,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.3.4, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo-2160x1374.png" type="image/x-icon">
+  <link rel="shortcut icon" href="${path}/assets/images/logo-2160x1374.png" type="image/x-icon">
   <meta name="description" content="">
   <title>Home - Prêmio Pfizer Inovação Social 2018</title>
-  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
-  <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  <link rel="stylesheet" href="assets/custom/toggle-collapse/style.css" type="text/css">
-  <link rel="stylesheet" href="assets/custom/style.css" type="text/css">
+  <link rel="stylesheet" href="${path}/assets/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="${path}/assets/web/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="${path}/assets/tether/tether.min.css">
+  <link rel="stylesheet" href="${path}/assets/soundcloud-plugin/style.css">
+  <link rel="stylesheet" href="${path}/assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="${path}/assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="${path}/assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="${path}/assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="${path}/assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="${path}/assets/theme/css/style.css">
+  <link rel="stylesheet" href="${path}/assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="${path}/assets/custom/toggle-collapse/style.css" type="text/css">
+  <link rel="stylesheet" href="${path}/assets/custom/style.css" type="text/css">
   
   
   
@@ -148,7 +148,7 @@
         <div class="row justify-content-center">
             <div class="media-container-column title col-12 col-md-10">
                 <h2 class="align-left mbr-bold mbr-white pb-3 mbr-fonts-style display-2" style="text-shadow: 0px 0px 100px #00B0F0;">FAÇA SUA INSCRIÇÃO</h2>
-                <h3 class="mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style display-5">Um processo simples e rápido. É assim que a Pfizer quer manter o relacionamento  e parceria com as associações de pacientes.<br><br>Mais informações acesso o regulamento <a href="assets/documentos/edital/Edital Prêmio Pfizer.pdf"><b style="color: #fff;">clicando aqui.</b></a></h3>
+                <h3 class="mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style display-5">Um processo simples e rápido. É assim que a Pfizer quer manter o relacionamento  e parceria com as associações de pacientes.<br><br>Mais informações acesso o regulamento <a href="${path}/assets/documentos/edital/Edital Prêmio Pfizer.pdf"><b style="color: #fff;">clicando aqui.</b></a></h3>
                 
                 <div class="mbr-section-btn align-left py-4"><a class="btn btn-white-outline display-4" href="check-in.jsp">INSCREVER-SE</a></div>
             </div>
@@ -309,7 +309,7 @@
                     <p style="text-align: justify; color: black;"><b>Ainda não entendeu como funciona o Prêmio? Quer saber mais?</b><br><b>Estamos à sua disposição para esclarecer dúvidas: (11) 2389-5766</b></p>
                     <p style="text-align: justify;"><hr>Contribuir para o desenvolvimento institucional das associações de pacientes é estratégico para a Pfizer realizar a sua missão.</p>
 
-                    <center><img src="assets/images/help.jpg" style="width: 100%;"></center>
+                    <center><img src="${path}/assets/images/help.jpg" style="width: 100%;"></center>
 
                     
                                     
@@ -559,13 +559,13 @@
                     <div class="soc-item" style="margin-right: 50px">
                             <a href="http://www.yabaconsultoria.com.br/" target="_blank">
                                 <h4 style="color: white; font-size: 16px;">Mentoria:</h4>
-                                <img src="assets/images/Logo YABÁ Dourado.png" style="width: 60px; height: 50px;">
+                                <img src="${path}/assets/images/Logo YABÁ Dourado.png" style="width: 60px; height: 50px;">
                             </a>
                     </div>
                     <div class="soc-item" style="margin-left: 50px">
                             <a href="https://www.pfizer.com.br/" target="_blank">
                                  <h4 style="color: white; font-size: 16px;">Realização:</h4>
-                                <img src="assets/images/logo-2160x1374.png" style="width: 70px; height: 50px; ">
+                                <img src="${path}/assets/images/logo-2160x1374.png" style="width: 70px; height: 50px; ">
                             </a>
                     </div>
             </div>
@@ -578,18 +578,18 @@
 </section>
 
 
-  <script src="assets/web/assets/jquery/jquery.min.js"></script>
-  <script src="assets/popper/popper.min.js"></script>
-  <script src="assets/tether/tether.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/smooth-scroll/smooth-scroll.js"></script>
-  <script src="assets/touch-swipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/jarallax/jarallax.min.js"></script>
-  <script src="assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
-  <script src="assets/dropdown/js/script.min.js"></script>
-  <script src="assets/theme/js/script.js"></script>
-  <script src="assets/formoid/formoid.min.js"></script>
-  <script src="assets/custom/script.js"></script>
+  <script src="${path}/assets/web/jquery/jquery.min.js"></script>
+  <script src="${path}/assets/popper/popper.min.js"></script>
+  <script src="${path}/assets/tether/tether.min.js"></script>
+  <script src="${path}/assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="${path}/assets/smooth-scroll/smooth-scroll.js"></script>
+  <script src="${path}/assets/touch-swipe/jquery.touch-swipe.min.js"></script>
+  <script src="${path}/assets/jarallax/jarallax.min.js"></script>
+  <script src="${path}/assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
+  <script src="${path}/assets/dropdown/js/script.min.js"></script>
+  <script src="${path}/assets/theme/js/script.js"></script>
+  <script src="${path}/assets/formoid/formoid.min.js"></script>
+  <script src="${path}/assets/custom/script.js"></script>
 
   
   

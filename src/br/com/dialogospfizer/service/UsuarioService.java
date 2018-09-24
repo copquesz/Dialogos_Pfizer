@@ -2,6 +2,7 @@ package br.com.dialogospfizer.service;
 
 import java.util.Date;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.dialogospfizer.dao.UsuarioDAO;
@@ -11,6 +12,7 @@ import br.com.dialogospfizer.enumerated.TipoUsuario;
 @Service
 public class UsuarioService {
 
+	@Autowired
 	private UsuarioDAO dao;
 
 	public Usuario adicionar(Usuario usuario, TipoUsuario tipoUsuario) {
@@ -22,7 +24,7 @@ public class UsuarioService {
 		return dao.carregar(email);
 	}
 
-	public boolean login(String email, String senha) {
+	public boolean login(String email, String senha) {		
 		return dao.login(email, senha);
 	}
 

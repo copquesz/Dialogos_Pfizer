@@ -21,13 +21,13 @@ public class UsuarioDAO {
 	}
 
 	public Usuario carregar(String email) {
-		Query query = em.createQuery("SELECT u FROM Usuario u WHERE u.email = :email", Usuario.class);
+		Query query = em.createQuery("SELECT us FROM Usuario us WHERE us.email = :email", Usuario.class);
 		query.setParameter("email", email);
 		return (Usuario) query.getSingleResult();
 	}
 
 	public boolean login(String email, String senha) {
-		Query query = em.createQuery("SELECT u FROM Usuario u WHERE u.email = :email AND u.senha = :senha",
+		Query query = em.createQuery("SELECT us FROM Usuario us WHERE us.email = :email AND us.senha = :senha",
 				Usuario.class);
 		query.setParameter("email", email);
 		query.setParameter("senha", senha);

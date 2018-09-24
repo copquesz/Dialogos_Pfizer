@@ -36,6 +36,8 @@ public class LoginController {
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
 	public String loginPost(Usuario usuario, HttpServletRequest request, Model model) {
 
+		System.out.println(usuario);
+
 		// Recebe o contexto da requisição.
 		String path = request.getContextPath();
 		model.addAttribute("path", path);
@@ -43,10 +45,10 @@ public class LoginController {
 		if (us.login(usuario.getEmail(), usuario.getSenha())) {
 			usuario = us.carregar(usuario.getEmail());
 
-			if (usuario.getTipoUsuario().getId().equals(TipoUsuario.COMUM.getId())) {
+			if (usuario.getTipoUsuario().equals(TipoUsuario.COMUM)) {
 				return "painel-usuario/index";
-			} else if (usuario.getTipoUsuario().getId().equals(TipoUsuario.PFIZER.getId())
-					|| usuario.getTipoUsuario().getId().equals(TipoUsuario.YABA.getId())) {
+			} else if (usuario.getTipoUsuario().equals(TipoUsuario.YABA)
+					|| usuario.getTipoUsuario().equals(TipoUsuario.PFIZER)) {
 				return "painel-restrito/index";
 			}
 		}

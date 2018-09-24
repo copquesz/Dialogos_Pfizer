@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="${path}/assets/images/logo-2160x1374.png" type="image/x-icon">
   <meta name="description" content="Website Generator Description">
-  <title>Entrar - Prêmio Pfizer Inovação Social 2018</title>
+  <title>Login - Prêmio Pfizer Inovação Social 2018</title>
   <link rel="stylesheet" href="${path}/assets/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="${path}/assets/web/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="${path}/assets/tether/tether.min.css">
@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="${path}/assets/socicon/css/styles.css">
   <link rel="stylesheet" href="${path}/assets/theme/css/style.css">
   <link rel="stylesheet" href="${path}/assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="${path}/assets/custom/style.css" type="text/css">
   
   
   
@@ -31,6 +32,7 @@
 <!-- import menu.jsp -->
 <c:import url="../menu/menu-principal.jsp" />
 
+
 <section class="engine"><a href="https://mobirise.co/g">create your own website</a></section><section class="header12 cid-qBfsih1FIp mbr-fullscreen mbr-parallax-background" id="header12-13" data-rv-view="565">
 
     
@@ -38,37 +40,34 @@
     <div class="mbr-overlay" style="opacity: 0.9; background-color: rgb(0, 32, 96);">
     </div>
 
-    <div class="container  ">
+    <div class="container">
             <div class="media-container">
                 <div class="col-md-12 align-center">
-                    <h1 class="mbr-section-title pb-3 mbr-white mbr-bold mbr-fonts-style display-1"><br>INOVAÇÃO PFIZER 2018</h1>
-                    <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-7" style="text-align: justify;">
-                        O Prêmio Pfizer Inovação Social foi criado para dar destaque às pessoas e startups que estão impulsionando a inovação em Saúde no Brasil. 
-                        Estamos ansiosos para receber a sua inscrição e lhe conhecer melhor, mas antes, <b><span style="color: yellow;">leia o regulamento abaixo</span></b>.
-                    </p>
-                    <div class="mbr-section-btn align-center py-2"><a class="btn btn-md btn-white-outline display-4" href="${path}/assets/documentos/edital/Edital Prêmio Pfizer.pdf" target="_blank">Clique aqui para conhecer o Edital</a></div>
+                    <h1 class="mbr-section-title pb-3 mbr-white mbr-bold mbr-fonts-style display-1"><br> <span class="mbr-iconfont fa-user-circle-o fa" media-simple="true"></span></h1>
+                                        
+                    <div class="col-md-6 offset-md-3" style="border: 1px solid #fff; padding-bottom: 30px;">  
 
-                    <div class="icons-media-container mbr-white">
-                        <div class="card col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <div class="icon-block">
-                            <a href="${path}/login">
-                                <span class="mbr-iconfont fa-drivers-license-o fa" media-simple="true"></span>
-                            </a>
-                            </div>
-                            <h5 class="mbr-fonts-style display-5">Já sou Cadastrado</h5>
+                      <form class="form-horizontal" method="post" action="${path}/login">
+                        <div class="form-group">
+                          <label class="control-label col-sm-12" for="email"></label>
+                          <div class="col-sm-12">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email" required>
+                          </div>
                         </div>
-
-                        <div class="card col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            <div class="icon-block">
-                                <a href="${path}/associacao/cadastrar">
-                                    <span class="mbr-iconfont fa-user-plus fa" media-simple="true"></span>
-                                </a>
-                            </div>
-                            <h5 class="mbr-fonts-style display-5">
-                                Quero me cadastrar</h5>
+                        <div class="form-group">
+                          <label class="control-label col-sm-12" for="senha"></label>
+                          <div class="col-sm-12"> 
+                            <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite sua senha" required>
+                          </div>
+                        </div>                        
+                        <div class="row"> 
+                          <div class="col-sm-6 offset-sm-3">
+                            <button type="submit" class="form-control custom-button-cadastro-inverse">Entrar</button>
+                          </div>
                         </div>
+                      </form> 
 
-                        
+                    </div>                     
 
                         
                     </div>
@@ -92,7 +91,6 @@
   <script src="${path}/assets/smooth-scroll/smooth-scroll.js"></script>
   <script src="${path}/assets/theme/js/script.js"></script>
   <script src="${path}/assets/custom/script.js"></script>
-  
-  
+    
 </body>
 </html>
