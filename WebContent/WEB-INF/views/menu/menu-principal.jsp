@@ -29,7 +29,7 @@
                         <b>O Prêmio</b></a></li><li class="nav-item"><a class="nav-link link text-white display-4" id="a3" href="index.jsp#features1-c">
                         <b>Benefícios</b></a></li><li class="nav-item"><a class="nav-link link text-white display-4" id="a4" href="index.jsp#timeline2-0">
                         <b>Cronograma</b></a></li><li class="nav-item"><a class="nav-link link text-white display-4" id="a5" href="index.jsp#toggle1-q">
-                        <b>F.A.Q</b></a></li><li class="nav-item"><a class="nav-link link text-white display-4" id="a6" href="check-in.jsp">
+                        <b>F.A.Q</b></a></li><li class="nav-item"><a class="nav-link link text-white display-4" id="a6" href="${path}/entrar">
                         <b>Entrar</b></a></li>
         </div>
     </nav>

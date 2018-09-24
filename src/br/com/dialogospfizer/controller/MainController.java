@@ -25,13 +25,23 @@ public class MainController {
 
 	
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
-	public String init(HttpServletRequest request, Model model) {
+	public String index(HttpServletRequest request, Model model) {
 
 		// Recebe o contexto da requisição.
 		String path = request.getContextPath();
 		model.addAttribute("path", path);
 
 		return "principal/index";
+	}
+	
+	@RequestMapping(value = "/entrar", method = RequestMethod.GET)
+	public String entrar(HttpServletRequest request, Model model) {
+
+		// Recebe o contexto da requisição.
+		String path = request.getContextPath();
+		model.addAttribute("path", path);
+
+		return "principal/entrar";
 	}
 
 }
